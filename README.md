@@ -24,25 +24,36 @@ Django-Mart is an e-commerce web application built with Django, providing a plat
 
 ## Installation
 ### Clone the Repository:
-
+```
 git clone https://github.com/myself-nahid/Django_Mart.git
 cd django-mart
+```
 
 ### Create a Virtual Environment:
+```
 python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+```
 
 ### Install Dependencies:
+```
 pip install -r requirements.txt
+```
 
 ### Apply Migrations:
+```
 python manage.py migrate
+```
 
 ### Create a Superuser:
+```
 python manage.py createsuperuser
+```
 
 ### Run the Server:
+```
 python manage.py runserver
+```
 
 ### Access the Application: 
 Open a web browser and go to http://127.0.0.1:8000/.
@@ -53,6 +64,7 @@ User Registration/Login: Users can create accounts, log in, browse products, and
 Checkout: The cart allows for item adjustments and checkout with payment (if integrated).
 
 ## Project Structure
+```
 django-mart/
 │
 ├── myapp/                  # Main app folder for models, views, and templates
@@ -61,6 +73,6 @@ django-mart/
 ├── db.sqlite3              # SQLite database file (default)
 ├── manage.py               # Django management script
 └── README.md               # Project documentation
-
+```
 ## Contributing
 - Contributions are welcome! Feel free to open issues, submit pull requests, or suggest new features.
