@@ -25,7 +25,7 @@ Django-Mart is an e-commerce web application built with Django, providing a plat
 ## Installation
 ### Clone the Repository:
 
-git clone https://github.com/your-username/django-mart.git
+git clone https://github.com/myself-nahid/django-mart.git
 cd django-mart
 
 ### Create a Virtual Environment:
